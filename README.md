@@ -1,16 +1,7 @@
 
 # SoleSavvy Snaekers Store
 
-
-
-
-
 E-commerce website for a sneaker brand "SoleSavvy" built in ReactJs. 
-
-
-## Screenshots
-<!-- <img width="1418" alt="" src="h">
-
 
 ## Tech Stack
 
@@ -72,9 +63,4 @@ Start the server
 ```
   npm run start
 ```
-
-
-## Authors
-
-- [@](https://www.github.com/)
 
