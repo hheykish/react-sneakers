@@ -1,0 +1,31 @@
+.about-container {
+  min-height: 100vh;  /* Ensure the container takes up at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* Push content to the top and footer to the bottom */
+  color: white;
+  background-color: black;
+  padding: 5rem;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 2rem; /* Font size for the heading */
+}
+
+.about-container p {
+  text-align:right;
+  font-size: 1.2rem; /* Font size for the about paragraph */
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+/* Styles for the footer */
+.about-container > div {
+  flex-shrink: 0; /* Prevent the footer from shrinking */
+}
+
+/* Styles for the footer text */
+.about-container .footer {
+  font-size: 1.0rem; /* Font size for the footer text */
+}
