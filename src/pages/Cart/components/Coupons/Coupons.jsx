@@ -13,7 +13,7 @@ export const Coupons = ({ couponSelected, setCouponSelected }) => {
   const couponsData = [
     {
       id: 1,
-      name: "BLACK FRIDAY OFFER",
+      name: "GOOD DAY OFFER",
       description: "Get ₹20 off on a purchase of ₹250",
       minimumPurchase: 250,
       amount: 20,
